@@ -23405,7 +23405,7 @@ function printCards(paises) {
     card.innerHTML = `
     <section class="cards">
             <div class="card__info">
-                <h2 class="card__title">${pais.name.official}</h2>
+                <h3 class="card__title">${pais.name.official}</h3>
                 <p class="card__name"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
                         class="bi bi-globe2" viewBox="0 0 16 16">
                         <path

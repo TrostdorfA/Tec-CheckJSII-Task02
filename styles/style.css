@@ -9,8 +9,6 @@ body {
 
 .container {
   width: 100%;
-  margin: 0 auto;
-  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -21,27 +19,28 @@ body {
   background: wheat;
   padding: 10px;
   margin: 20px;
-  width: 500px;
+  width: 550px;
   border-radius: 5%;
+  justify-content: space-between;
 }
 
-.card__name img {
-  width: 32px;
+.card__title {
+  height: 50px;
 }
 
-.card__flag {
-  padding: 10px;
+.card__name {
+  height: 50px;
 }
 
 .card__flag img {
-  object-fit: contai;
+  width: 250px;
   height: 100%;
-  width: 300px;
 }
 
 .card__timeZone {
-  width: 150px;
-  height: 80px;
+  width: 200px;
+  height: 50px;
+  overflow: hidden;
 }
 
 h1 {
