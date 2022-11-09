@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  background: wheat;
+  padding: 10px;
+  margin: 20px;
+  width: 500px;
+  border-radius: 5%;
+}
+
+.card__name img {
+  width: 32px;
+}
+
+.card__flag {
+  padding: 10px;
+}
+
+.card__flag img {
+  object-fit: contai;
+  height: 100%;
+  width: 300px;
+}
+
+.card__timeZone {
+  width: 150px;
+  height: 80px;
+}
+
+h1 {
+  text-align: center;
+}
